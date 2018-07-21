@@ -9,12 +9,10 @@ Basic MVC frame
 			<li><a href="#activity_add_new_theme">Activity: Add a new Theme</a></li>
 		</ul>		
 	</div>
-
-
-	<div>
-		<div><a name="structure">Structure</a></div>
+	<fieldset>
+		<legend><a name="structure">Structure</a></legend>
 		<p class="content_text">This is a basic MVC layout.</p>
-		+ Your Root Folder
+		<p>+ Your Root Folder</p>
 		<ul>
 			<li><h3>model</h3>
 			<p class="content_text" >In this folder you found the model or database class you can use for your project. Mysql class are include by default. But you can use any database class like Oracle.</p>
@@ -36,10 +34,10 @@ Basic MVC frame
 			<li>.htaccess<p class="content_text">Very usefull here you found security configuraction for your server.</p></li>
 		</ul>
 		<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
-	</div>
+	</fieldset>
 	<br>
-	<div>
-		<div><a name="activity_add_new_theme">Activity: add new Themplate</a></div>
+	<fieldset>
+		<legend><a name="activity_add_new_theme">Activity: add new Themplate</a></legend>
 		<p class="content_text">This activity is relatively straightforward.</p>
 		<ul>
 			<li>
@@ -59,11 +57,10 @@ Basic MVC frame
 
 			<p class="allign_right content_text"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
-	</div>
-
+	</fieldset>
 	<br>
-	<div>
-		<div><a name="activity_add_new_page">Activity: add new Page or View</a></div>
+	<fieldset>
+		<legend><a name="activity_add_new_page">Activity: add new Page or View</a></legend>
 		<p class="content_text">Is very simply, In your theme folder ( view/yourTheme/ ) create a file named as your view ex: service.php</p>
 		<ul>
 			<li>
@@ -75,6 +72,6 @@ Basic MVC frame
 			</li>
 			<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
-	</div>
+	</fieldset>
 
 </div>
