@@ -11,8 +11,8 @@ Basic MVC frame
 	</div>
 
 
-	<fieldset>
-		<legend><a name="structure">Structure</a></legend>
+	<div>
+		<div><a name="structure">Structure</a></div>
 		<p class="content_text">This is a basic MVC layout.</p>
 		+ Your Root Folder
 		<ul>
@@ -36,10 +36,10 @@ Basic MVC frame
 			<li>.htaccess<p class="content_text">Very usefull here you found security configuraction for your server.</p></li>
 		</ul>
 		<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
-	</fieldset>
+	</div>
 	<br>
-	<fieldset>
-		<legend><a name="activity_add_new_theme">Activity: add new Themplate</a></legend>
+	<div>
+		<div><a name="activity_add_new_theme">Activity: add new Themplate</a></div>
 		<p class="content_text">This activity is relatively straightforward.</p>
 		<ul>
 			<li>
@@ -59,11 +59,11 @@ Basic MVC frame
 
 			<p class="allign_right content_text"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
-	</fieldset>
+	</div>
 
 	<br>
-	<fieldset>
-		<legend><a name="activity_add_new_page">Activity: add new Page or View</a></legend>
+	<div>
+		<div><a name="activity_add_new_page">Activity: add new Page or View</a></div>
 		<p class="content_text">Is very simply, In your theme folder ( view/yourTheme/ ) create a file named as your view ex: service.php</p>
 		<ul>
 			<li>
@@ -75,6 +75,6 @@ Basic MVC frame
 			</li>
 			<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
-	</fieldset>
+	</div>
 
 </div>
