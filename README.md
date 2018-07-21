@@ -54,7 +54,6 @@ Basic MVC frame
 				3. Create a file named index.php
 				<p class="content_text">Here is your front end. upload your css, js, etc...</p>
 			</li>
-
 			<p class="allign_right content_text"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
 	</fieldset>
