@@ -2,7 +2,7 @@
 if (!defined('SECURITY_KEY') ){ exit($mvc_lang_error['security_key']); }
 if(SETUP_SHOW_PATH){ developMode(__FILE__);}
 $random = rand(100,999);
-//LAYOUT
+/*LAYOUT*/
 ?>
 <?php get_head(); ?>
 
