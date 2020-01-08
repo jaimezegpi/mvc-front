@@ -4,22 +4,7 @@ if(SETUP_SHOW_PATH){ developMode(__FILE__);}
 $random = rand(100,999);
 //LAYOUT
 ?>
-<!DOCTYPE html>
-<html lang="es">
-	<head>
-		<?php get_head(); ?>
-	</head>
-
-	<body>
-
-		<content>
-
-			<!-- HEADER INI -->
-			<header class="content_header custom_container">
-			<?php
-			get_header();
-			?>
-			</header>
+<?php get_head(); ?>
 
 			<!-- CONTENT INI -->
 			<main class="content_body custom_main_container">
@@ -30,13 +15,4 @@ $random = rand(100,999);
 				
 			</main>
 
-			<!-- FOOTER INI -->
-			<footer class="content_footer custom_container">
-				<?php	get_footer();	?>	
-			</footer>
-		<?php get_console(); ?>
-
-		</content>
-
-	</body>
-</html>
+<?php get_footer();	?>

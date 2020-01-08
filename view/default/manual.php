@@ -10,6 +10,8 @@ if(SETUP_SHOW_PATH){ developMode(__FILE__);}
 			<li><a href="#structure">Structure</a></li>
 			<li><a href="#activity_add_new_page">Activity: Add a new Page or View</a></li>
 			<li><a href="#activity_add_new_theme">Activity: Add a new Theme</a></li>
+			<li><a href="#activity_query_database">Activity: Query Database</a></li>
+			
 		</ul>		
 	</div>
 
@@ -75,6 +77,33 @@ if(SETUP_SHOW_PATH){ developMode(__FILE__);}
 			</li>
 			<li>
 				2. Now you can access like this http://www.yourdom.com/service/
+			</li>
+			<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
+		</ul>
+	</fieldset>
+
+	<br>
+	<fieldset>
+		<legend><a name="activity_query_database">Activity: Query Database. </a></legend>
+		<p class="content_text">First active Database in setup.php and add respective credentials.</p>
+		<ul>
+			<li>
+				1. First active Use of Database in setup.php and add respective credentials ( DB_NAME, DB_USER, DB_PASSWORD, ETC... ).<br>
+				define('DB_STATUS', true);// switch to true  <br>
+				<code>
+        $sql=new db();<br>
+        $sql->sql_open();<br>
+        $query="SELECT * FROM tablename WHERE id = '".mysql_real_escape_string($_GET['id'])."'";<br>
+        $mvc_response = $sql->sql_query_read($query);<br>
+        $sql->sql_close();<br>
+        // This return a array. you can walk using a basic foreach.<br>
+				</code>
+			</li>
+			<li>
+				2. IMPORTANT!! always use mysql_real_escape_string( $value ).<br>
+			</li>
+			<li>
+				3. IMPORTANT!! always validate your fields in FORMS.<br>
 			</li>
 			<p class="allign_right"><a href="#index">GO 2 INDEX</a></p>
 		</ul>
